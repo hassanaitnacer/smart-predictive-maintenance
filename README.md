@@ -16,7 +16,7 @@ Predicting machine failures and scheduling maintenance to minimize downtime and 
 To run the services using `docker-compose`, make sure you have `docker` and `docker-compose` installed on your machine. Then, navigate to the root of the project and run the following command:
 
 ```
-cd docker-compose up
+docker-compose up
 ```
 
 ## Accessing the Services
@@ -65,7 +65,7 @@ Output:
 To stop the services and remove the containers created, you can use the following command:
 
 ```
-cd docker-compose down
+docker-compose down
 ```
 
 ## Links
