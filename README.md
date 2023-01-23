@@ -50,6 +50,16 @@ curl --location --request POST 'http://localhost:8000/machine-failure/predict' \
 }'
 ```
 
+Output:
+
+```bash
+[
+    [
+        0.736666083 # this machine will fail (73% confidence)
+    ]
+]
+```
+
 ## Stopping the Services
 
 To stop the services and remove the containers created, you can use the following command:
