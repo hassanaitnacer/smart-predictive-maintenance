@@ -5,6 +5,10 @@ services:
     build: ./services/server
     ports:
       - "8000:80"
+  client:
+      build: ./services/client
+      ports:
+        - "5173:80"
   models:
     build: ./services/models
     ports:
