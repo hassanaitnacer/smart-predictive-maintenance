@@ -1,0 +1,76 @@
+{
+  "stats": {
+    "totalMachines": 120,
+    "down": 2,
+    "failureMeanTime": 20,
+    "maintenanceCost": 450
+  },
+  "machineFailureOverTime": {
+    "series": {
+      "low": [44, 55, 57, 56, 61, 5],
+      "medium": [76, 85, 101, 98, 87, 4],
+      "high": [35, 41, 36, 26, 45, 3]
+    },
+    "options": {
+      "categories": ["Aug", "Sep", "Oct", "Nov", "Dec", "Jan"]
+    }
+  },
+  "machineTypes": {
+    "series": [20, 35, 65],
+    "options": {
+      "labels": ["Low", "Medium", "High"]
+    }
+  },
+  "machines": [
+    {
+      "type": "L",
+      "airTemperature": 25.95,
+      "processTemperature": 36.45,
+      "rotationalSpeed": 1551,
+      "torque": 42.8,
+      "toolWear": 0,
+      "temperatureDifference": 10.5,
+      "isFailed": false
+    },
+    {
+      "type": "L",
+      "airTemperature": 26.75,
+      "processTemperature": 36.95,
+      "rotationalSpeed": 2861,
+      "torque": 4.6,
+      "toolWear": 143,
+      "temperatureDifference": 10.2,
+      "isFailed": true
+    },
+    {
+      "type": "L",
+      "airTemperature": 26.65,
+      "processTemperature": 36.75,
+      "rotationalSpeed": 1455,
+      "torque": 41.3,
+      "toolWear": 208,
+      "temperatureDifference": 10.1,
+      "isFailed": true
+    },
+    {
+      "type": "H",
+      "airTemperature": 26.65,
+      "processTemperature": 36.65,
+      "rotationalSpeed": 1445,
+      "torque": 49.9,
+      "toolWear": 4,
+      "temperatureDifference": 10,
+      "isFailed": false
+    },
+    {
+      "type": "L",
+      "airTemperature": 26.25,
+      "processTemperature": 36.15,
+      "rotationalSpeed": 1433,
+      "torque": 62.3,
+      "toolWear": 20,
+      "temperatureDifference": 9.9,
+      "isFailed": false
+    }
+  ]
+}
