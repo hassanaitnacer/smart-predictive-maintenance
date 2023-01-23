@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  server:
+    build: ./services/server
+    ports:
+      - "8000:80"
+  models:
+    build: ./services/models
+    ports:
+      - "8501:8501"
